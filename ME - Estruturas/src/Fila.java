@@ -1,17 +1,8 @@
 public class Fila<T> {
-    private int size;
-    private Node<T> topo;
-    private Node<T> fundo;
+    public int size;
+    public Node<T> topo;
+    public Node<T> fundo;
 
-    private static class Node<T> {
-        private T data;
-        private Node<T> next;
-
-        public Node(T data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
 
     public Fila() {
         this.size = 0;
@@ -19,9 +10,9 @@ public class Fila<T> {
         this.fundo = null;
     }
 
-    public void enfileirar(T data) {
+    public void enfileirar(T data){
         Node<T> newNode = new Node<T>(data);
-        if (fundo == null) {
+        if (topo == null) {
             topo = newNode;
             fundo = newNode;
         } else {
@@ -50,5 +41,9 @@ public class Fila<T> {
 
     public int size() {
         return size;
+    }
+
+    public T getObject(){
+        return topo.data;
     }
 }

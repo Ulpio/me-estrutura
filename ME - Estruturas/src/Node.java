@@ -1,6 +1,6 @@
 public class Node<T> {
-    private T data;
-    private Node<T> next;
+    T data;
+    Node<T> next;
 
     public Node(T data) {
         this.data = data;
@@ -16,7 +16,7 @@ public class Node<T> {
 
     }
 
-    
+
     public Node<T> getNext() {
         return this.next;
     }

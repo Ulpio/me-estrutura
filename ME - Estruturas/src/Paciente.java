@@ -1,12 +1,10 @@
 class Paciente {
     public String nome;
     public String cpf;
-    public String procedimento;
     
-    public Paciente(String nome, String cpf, String procedimento) {
+    public Paciente(String nome, String cpf) {
       this.nome = nome;
       this.cpf = cpf;
-      this.procedimento = procedimento;
     }
     
     public String getNome() {
@@ -16,9 +14,7 @@ class Paciente {
     public String getCpf() {
       return cpf;
     }
-    
-    public String getProcedimento() {
-      return procedimento;
-    }
-  }
+
+
+}
   
