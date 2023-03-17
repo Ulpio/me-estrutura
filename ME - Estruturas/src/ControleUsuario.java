@@ -30,7 +30,7 @@ public class ControleUsuario {
         else if (opcao == 2){
             System.out.println("Digite o nome do médico");
             nome = sc.nextLine();
-            sc.next();
+            clearBuffer(sc);
             System.out.println("Digite o CPF do médico");
             cpf = sc.nextLine();
             pmedicos.push(new Medico(nome, cpf));
