@@ -46,4 +46,10 @@ public class Fila<T> {
     public T getObject(){
         return topo.data;
     }
+    public T getFundo(){
+        return fundo.data;
+    }
+    public T getTopo(){
+        return topo.data;
+    }
 }
