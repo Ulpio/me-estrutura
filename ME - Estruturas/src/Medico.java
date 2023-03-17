@@ -6,11 +6,21 @@ public class Medico {
         this.nome = nome;
         this.cpf = cpf;
     }
-    public String getNome(){
+
+    public String getNome() {
         return nome;
     }
-    public String getCPF(){
+    public String setNome(String nome){
+        return this.nome = nome;
+    }
+    public String getCpf() {
         return cpf;
     }
+    public String setCpf(String cpf){
+        return this.cpf = cpf;
+    }
+
     
+
+
 }

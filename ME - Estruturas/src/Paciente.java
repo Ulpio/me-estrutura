@@ -10,11 +10,15 @@ class Paciente {
     public String getNome() {
       return nome;
     }
-    
+    public String setNome(String nomes){
+        return this.nome = nomes;
+    }
     public String getCpf() {
       return cpf;
     }
-
+    public String setCpf(String cpfs){
+        return this.cpf = cpfs;
+    }
 
 }
   
