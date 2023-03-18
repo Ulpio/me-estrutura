@@ -1,6 +1,6 @@
 public class Pilha<T> {
-    private Node<T> topo;
-    private int size;
+    public Node<T> topo;
+    public int size;
 
     private static class Node<T> {
         private T data;
