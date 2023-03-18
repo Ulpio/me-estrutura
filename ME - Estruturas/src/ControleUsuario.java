@@ -89,6 +89,8 @@ public class ControleUsuario {
         System.out.println("¦Pacientes na fila: " + fpacientes.size()+"         ¦");
         System.out.println("|Médicos na Disponíveis: " + pmedicos.size()+"    ¦");
         System.out.println("+-----------------------------+");
+        System.out.println();
+        System.out.println();
     }
     }
     public static void Atendender(){
